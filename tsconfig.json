@@ -1,0 +1,25 @@
+{
+	"compilerOptions": {
+		"declaration": true,
+		"outDir": "./",
+		"sourceMap": false,
+		"esModuleInterop": true,
+		"module": "commonjs",
+		"strict": true,
+		"moduleResolution": "node",
+		"target": "es5",
+		"lib": [
+			"dom",
+			"dom.iterable",
+			"esnext",
+			"es2017"
+		],
+	},
+	"include": [
+		"./src/**/*.ts",
+	],
+	"exclude": [
+		"node_modules"
+		"./src/**/*.test.ts",
+	]
+}
